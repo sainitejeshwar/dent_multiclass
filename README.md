@@ -106,10 +106,10 @@ Use API.py along with [Postman](https://www.getpostman.com/downloads/)
 Steps: 
        1 . Run API.py on command line(make sure flask is installed)
        2 . A URL is generated on command line copy that and paste 
-       ![1](1.jpg)
+       ![1](1.JPG)
        3 . Goto body and add a new key
               3.a. set name as 'file' and at the end of same cell an drop down is available select that to file
-              ![2](2.jpg)
+              ![2](2.JPG)
        4 . select the file you want to test on
        5 . set method to POST and click on send
        
