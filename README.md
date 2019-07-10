@@ -99,3 +99,19 @@ drive.mount('/content/drive')
 $ python3 custom.py splash --weights=logs/damage20181007T0431/mask_rcnn_damage_0010.h5 --image=dataset/test/67.jpg
 ```
 or run ```inspect_custom_model.ipynb```
+
+
+# API 
+Use API.py along with [Postman](https://www.getpostman.com/downloads/)
+Steps: 
+       1 . Run API.py on command line(make sure flask is installed)
+       2 . A URL is generated on command line copy that and paste 
+       ![1](1.jpg)
+       3 . Goto body and add a new key
+              3.a. set name as 'file' and at the end of same cell an drop down is available select that to file
+              ![2](2.jpg)
+       4 . select the file you want to test on
+       5 . set method to POST and click on send
+       
+       
+
